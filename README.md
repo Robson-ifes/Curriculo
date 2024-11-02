@@ -14,10 +14,10 @@ Este projeto tem como objetivo ajudar você a criar seu próprio currículo onli
   
 - **Download em PDF**: Salve seu currículo como um arquivo PDF para compartilhamento fácil.
 
-![Responsividade](caminho/para/imagem/responsividade.png)
+![Responsividade](https://github.com/Robson-ifes/Curriculo/blob/main/Rensposividade.png)
 
 ## Como Usar
 
 1. **Clone o repositório**:
    ```bash
-   git clone <repositório-git>
+   git clone https://github.com/Robson-ifes/Curriculo.git
