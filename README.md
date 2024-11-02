@@ -2,7 +2,7 @@
 
 Este projeto tem como objetivo ajudar você a criar seu próprio currículo online de forma rápida e fácil.
 
-![Exemplo de Currículo Online](caminho/para/imagem/exemplo-curriculo.png)
+![Exemplo de Currículo Online](https://github.com/Robson-ifes/Curriculo/blob/main/Curriculo.png)
 
 ## Recursos
 
