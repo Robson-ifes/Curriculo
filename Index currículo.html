@@ -68,16 +68,34 @@
       </ul>
     </div>
 
-    <!-- Portfólio -->
-    <div id="portifolio">
-      <h2>Portfólio</h2>
-      <img src="Portfolio.png" alt="Imagem de portfólio" class="imagem-secao"> 
-      <ul>
-        <li><p>Projeto Hidroponia - Este projeto tem como objetivo desenvolver uma página com o Tema Hidroponia: <a href="https://github.com/Robson-ifes/Atividade-hidroponia" target="_blank">Hidroponia</a></p></li>
-        <li><p>Projeto Currículo - Este projeto tem como objetivo ajudar você a criar seu próprio currículo online de forma rápida e fácil: <a href="https://github.com/Robson-ifes/Curriculo" target="_blank">Curriculo</a></p></li>
-      </ul>
-    </div>
+   <!-- Portfólio -->
+   <div id="portifolio">
+    <h2>Portfólio</h2>
+    <img src="Portfolio.png" alt="Imagem de portfólio" class="imagem-secao"> 
+    <ul id="lista-portfolio">
+      <li><p>Projeto Hidroponia - Este projeto tem como objetivo desenvolver uma página com o Tema Hidroponia: <a href="https://github.com/Robson-ifes/Atividade-hidroponia" target="_blank">Hidroponia</a></p></li>
+      <li><p>Projeto Currículo - Este projeto tem como objetivo ajudar você a criar seu próprio currículo online de forma rápida e fácil: <a href="https://github.com/Robson-ifes/Curriculo" target="_blank">Curriculo</a></p></li>
+    </ul>
+    <button onclick="adicionarProjeto()">Adicionar Projeto</button>
   </div>
+</div>
+
+<script>
+  function adicionarProjeto() {
+    // Criar novo item de lista
+    let novoProjeto = document.createElement("li");
+    
+    // Criar o parágrafo com link
+    let paragrafo = document.createElement("p");
+    paragrafo.innerHTML = 'Novo Projeto - Um novo projeto de exemplo: <a href="#" target="_blank">Ver mais</a>';
+    
+    // Adicionar o parágrafo ao item de lista
+    novoProjeto.appendChild(paragrafo);
+    
+    // Adicionar o novo item à lista de portfólio
+    document.getElementById("lista-portfolio").appendChild(novoProjeto);
+  }
+</script>
 
 </body>
 </html>
